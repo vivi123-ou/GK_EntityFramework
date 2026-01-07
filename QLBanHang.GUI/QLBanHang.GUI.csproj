@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D42C16B7-0CA3-4256-821C-C2B654B7A583}</ProjectGuid>
+    <ProjectGuid>{2C68D122-C461-4F65-9225-AF5B65066C33}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>GK_EntityFramework</RootNamespace>
-    <AssemblyName>GK_EntityFramework</AssemblyName>
+    <RootNamespace>QLBanHang.GUI</RootNamespace>
+    <AssemblyName>QLBanHang.GUI</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -90,16 +90,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\QLBanHang.BUS\QLBanHang.BUS.csproj">
-      <Project>{6511f3d8-765b-4e82-b93e-f4879f171cf9}</Project>
-      <Name>QLBanHang.BUS</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\QLBanHang.DTO\QLBanHang.DTO.csproj">
-      <Project>{c4f8c338-907c-4ad6-87ac-bdc0a19c6e3b}</Project>
-      <Name>QLBanHang.DTO</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
