@@ -17,12 +17,12 @@ namespace QLBanHang.DTO
         public decimal DonGia { get; set; }
 
         public int SoLuong { get; set; }
-         
+
         public bool TrangThai { get; set; }
 
         public SanPhamDTO()
         {
-            TrangThai = true;  
+            TrangThai = true;
         }
 
         public SanPhamDTO(int maSP, string tenSP, decimal donGia, int soLuong, bool trangThai)

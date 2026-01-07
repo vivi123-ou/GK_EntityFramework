@@ -117,7 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\QLBanHang.DTO\QLBanHang.DTO.csproj">
-      <Project>{c4f8c338-907c-4ad6-87ac-bdc0a19c6e3b}</Project>
+      <Project>{638f5e1d-a1c6-4b86-8042-073dba1374cc}</Project>
       <Name>QLBanHang.DTO</Name>
     </ProjectReference>
   </ItemGroup>
