@@ -91,5 +91,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QLBanHang.BUS\QLBanHang.BUS.csproj">
+      <Project>{6511f3d8-765b-4e82-b93e-f4879f171cf9}</Project>
+      <Name>QLBanHang.BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QLBanHang.DTO\QLBanHang.DTO.csproj">
+      <Project>{c4f8c338-907c-4ad6-87ac-bdc0a19c6e3b}</Project>
+      <Name>QLBanHang.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
